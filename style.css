@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 header {
     padding: 20px 90px;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/header-image.png);
@@ -117,19 +122,92 @@ form > button {
 main {
     display: flex;
     flex-direction: column;
-    padding: 50px 12%;
 }
 
 .freature {
     display: flex;
     flex-direction: row;
-    background-color: black;
-    color: white;
     justify-content: center;
     align-items: center;
-    
+    margin: 30px 0 90px 32px;
 }
 
 .freature > .text-side {
-
+    width: 500px;
 }
+
+.text-side > h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.text-side > p {
+    font-size: 20px;
+}
+
+.img-side img {
+    width: 500px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article > ul > li {
+    width: 1000px;
+    list-style-type: none;
+    background-color: rgb(31, 31, 31);
+    padding: 30px 20px;
+    border-bottom: 10px solid black;
+    font-weight: 300;
+}
+
+article > h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.text-faq p {
+    font-size: 22px;
+}
+
+.header-faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row;
+    border-bottom-width: 10px solid black;
+    position: relative;
+}
+
+.header-faq > h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color:  rgb(63, 63, 63);
+}
+
+.header-faq > img {
+    width: 20px;
+    position: absolute;
+    right: 45px;
+    bottom: 16px;
+}
+
+.header-faq > img:hover {
+    cursor: pointer;
+}
+
+.text-faq {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    display: none;
+}
+
+
+
