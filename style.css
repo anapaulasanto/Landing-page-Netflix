@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 20px 90px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;    
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+#btn-portugues {
+    background: transparent;
+    color: white;
+    padding: 5px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.434);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#btn-portugues > .fa-solid {
+    margin-right: 10px;
+}
+
+#btn-portugues > img {
+    width: 8px;
+    margin-left: 10px;
+}
+
+#btn-entrar {
+    padding: 6px 15px;
+    background-color: rgb(244, 3, 3);
+    border: none;
+    color: white;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.header-content {
+    color: white;
+    margin-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header-content > h1 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 10px;
+    max-width: 650px;
+}
+
+.header-content > h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.header-content > p {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form > input {
+    flex: 1;
+    padding: 15px;
+    outline: none;
+    background-color: rgba(17, 16, 16, 0.608);
+    border:thin solid rgb(124, 123, 123);
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+form > input::placeholder {
+    color: rgba(255, 255, 255, 0.711);
+    font-weight: 300;
+}
+
+form > button {
+    padding: 14px 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    background-color:  rgb(244, 3, 3);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 12%;
+}
+
+.freature {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.freature > .text-side {
+
+}
