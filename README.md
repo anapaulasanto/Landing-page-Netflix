@@ -1,7 +1,7 @@
 <h1 align="center">Landing Page Netflix Responsiva</h1>
  <p align="center">Projeto de uma Landing page </p>
  <h1 align="center">
-  <img alt="banner" title="banner" src="./images/banner.png" />
+  <img alt="banner" title="banner" src="./images/Banner1.png" />
 </h1>
 <h3>Autor</h3>
 ---
