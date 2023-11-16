@@ -1,9 +1,14 @@
 <h1 align="center">Landing Page Netflix Responsiva</h1>
- <p align="center">Projeto de uma Landing page </p>
+ <p align="center"> Projeto de uma Landing page responsiva da Netflix </p>
+ 
+ 
+ <div align="center">
   <img alt="banner" title="banner" src="./Images/Banner1.png">
-
+  <img alt="banner" title="banner" src="./Images/Banner2.png">
+  <img alt="banner" title="banner" src="./Images/banner3.png">
+</div>
+  
 <h3>Autor</h3>
----
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/149811410?s=400&u=bb09c5d7f36aed097c3d8654b8d445ee587ed4b1&v=4" width="100px;" alt=""/>
  <br />
