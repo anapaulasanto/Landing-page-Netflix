@@ -167,3 +167,44 @@
         gap: 0;
     }
 }
+
+@media screen and (max-width: 580px) {
+    .header-content {
+        top: 45%;
+        width: 90%;
+    }
+
+    .header-content > h1 {
+        font-size: 20px;
+    }
+
+    .header-content > h3, .header-content > p{
+        font-size: 12px;
+    }
+
+    form > button {
+        width: 80%;
+    }
+
+    .header-content > h1, .freature > .text-side, .img-side img, article > .faq {
+        width: 90%;
+    }
+
+    .header-content > h1, .freature > .text-side, .img-side img {
+        margin-left: 5%;
+    }
+
+    form > input {
+        margin: 0px;
+    }
+
+    .form-faq > form {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .form-faq > h3 {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
